@@ -13,7 +13,12 @@ console.log(burger[6])
 console.log(burger[7])
 
 // with a loop
+let output = ""
+let i
 
+for(i = 0; i < burger.length; i++){
+  output += burger[i] + " "
+}
 
 //  👆 YOUR CODE ENDS HERE. DON'T CHANGE ANY OTHER CODE 👆
 

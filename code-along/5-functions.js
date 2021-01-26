@@ -22,5 +22,9 @@ let quotes = [
 
 window.addEventListener('DOMContentLoaded', function() {
   let outputElement = document.querySelector('.output')
-  outputElement.insertAdjacentHTML('beforeend', 'Hello!')
+  for(let i = 0; i < quotes.length; i++){
+    outputElement.insertAdjacentHTML('beforeend', quotes[i])
+  }
+  
 })
+
